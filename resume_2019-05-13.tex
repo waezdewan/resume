@@ -1,0 +1,244 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Waez}{Dewan}{ % Your name
+Residency Status: Green Card Holder \\
+\href{mailto:waez.dewan@gmail.com}{waez.dewan@gmail.com} | 604 401 5120 % Your contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education} 
+
+\subsection{Simon Fraser University}
+
+\descript{BASc in Computer Engineering}
+\location{Exp. Aug 2019 | Burnaby, BC, Canada}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Links} 
+
+Github:// \href{https://github.com/waezdewan}{\bf waezdewan} \\
+LinkedIn:// \href{https://www.linkedin.com/in/waezdewan/}{\bf waezdewan} \\
+Website:// \href{https://waezdewan.github.io/}{\bf waezdewan} \\
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Coursework
+%------------------------------------------------
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+
+Database Systems \\
+Operating Systems \\
+Data Structures \& Algorithms \\
+Data Mining \\
+Advanced Digital System Design \\
+Linear Systems \\
+Communication Systems \\
+Digital Signal Processing
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Skills}
+
+\subsection{Languages}
+
+Ruby \\
+Python \\
+C / C++ \\
+SQL \\
+R \\
+VHDL \\
+HTML \\
+CSS \\
+JavaScript
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Tools and Frameworks}
+
+Git \\
+Rails \\
+Docker \\
+MATLAB \\
+Travis \\
+Jenkins \\
+JIRA
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Development}
+
+Agile Methodology \\
+Object-oriented Programming \\
+Test-driven Development \\
+Behaviour-driven Development
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Experience}
+
+\runsubsection{Webnifico}
+\descript{| Software Engineer Co-op (Back-end)}
+
+\location{Sep 2018 – May 2019 | Vancouver, BC, Canada}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Collaborated with team members to implement new features for the product in \textbf{Ruby on Rails} while following \textbf{Test-driven Development} and \textbf{Behaviour-driven Development}
+\item Introduced non-intrusive event based logging within the product through the use of \textbf{Dry-Transactions}
+\item Re-factored code base and introduced a factory to instantiate all services and \textbf{injecting dependencies} when necessary
+\item Updated relational database models and constructed \textbf{RESTful API} endpoints to accommodate newly implemented services 
+\item Contributed to writing integration tests to validate the functionality of services
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Plan B Energy Storage}
+\descript{| Software Developer Co-op}
+
+\location{Jan 2016 – Aug 2016 | Vancouver, BC, Canada}
+\begin{tightitemize}
+\item Designed and developed a Graphical User Interface in \textbf{Python}, which connected to modular battery systems to log data and provided real-time information and graphs
+\item Implemented API calls for the Battery System Controller and Graphical User Interface in \textbf{C} and \textbf{Python} respectively
+\item Constructed \textbf{Python} scripts for unit testing of new and existing API calls
+\item Utilized Graphical User Interface for in-house testing, presenting data, and providing suggestions for further testing
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Projects
+%------------------------------------------------
+
+\section{Projects}
+
+\runsubsection{CidaFrame}
+\descript{| Capstone Project}
+
+\location{Jan 2018 – Aug 2018 | Simon Fraser University}
+\begin{tightitemize}
+\item Collaboratively designed and built a dual axis camera tracking mount that utilizes a smartphone to track and follow the movements of a person
+\item Developed Android Application to detect faces and communicate with the prototype via Bluetooth
+\item Tested and integrated rechargeable 18650 batteries to power the prototype and charge attached smartphone
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Face Detection}
+\descript{| Advanced Digital System Design Project}
+
+\location{Jan 2018 – Apr 2018 | Simon Fraser University}
+\begin{tightitemize}
+\item Collaboratively designed and developed a face detection system which allowed users to select between software or hardware filter implementations
+\item Developed initial bare-metal software implementation, in \textbf{C}, to detect faces from an image file
+\item Streamed data from SD card to AXI4-Stream Data FIFO to provide data to hardware filters
+\item Designed and verified YCbCr, HSV, Threshold, and Spatial filters in \textbf{VHDL} to detect faces
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Classifying Titanic Passengers}
+\descript{| Data Mining Project}
+
+\location{Oct 2017 – Nov 2017 | Simon Fraser University}
+\begin{tightitemize}
+\item Extracted, transformed, and loaded (\textbf{ETL}) data of passengers on the Titanic
+\item Applied Linear Regression Models, Support Vector Machines, Decision Trees, and Random Forests with \textbf{R} to predict survival outcomes
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
